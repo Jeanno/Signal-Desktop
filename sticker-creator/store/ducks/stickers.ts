@@ -65,7 +65,7 @@ interface StateToastData {
   key: string;
   subs?: Array<number | string>;
 }
-
+// Jeanno: this should be the bread and butter of a batch of sticker pack
 export type State = {
   readonly order: Array<string>;
   readonly cover?: StickerImageData;
@@ -95,6 +95,7 @@ export type Actions = {
   resetStatus: typeof resetStatus;
 };
 
+// Jeanno here's the default state.
 const defaultState: State = {
   order: [],
   data: {},
