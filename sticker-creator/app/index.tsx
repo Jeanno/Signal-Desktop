@@ -15,6 +15,7 @@ import { useI18n } from '../util/i18n';
 export const App: React.ComponentType = () => {
   const i18n = useI18n();
 
+  // Main page of the sticker creator. Doesn't seem to hold any state here
   return (
     <div className={styles.container}>
       <PageHeader>{i18n('StickerCreator--title')}</PageHeader>

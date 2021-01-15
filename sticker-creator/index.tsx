@@ -6,6 +6,7 @@ import { render } from 'react-dom';
 import { Root } from './root';
 
 const root = document.getElementById('root');
+// Jeanno: Sticker creator root here
 
 // eslint-disable-next-line no-console
 console.log('Sticker Creator: Starting root');

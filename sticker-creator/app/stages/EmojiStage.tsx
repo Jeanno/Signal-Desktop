@@ -10,6 +10,7 @@ import { stickersDuck } from '../../store';
 import { useI18n } from '../../util/i18n';
 
 export const EmojiStage: React.ComponentType = () => {
+  // Jeanno: Second Stage
   const i18n = useI18n();
   const emojisReady = stickersDuck.useEmojisReady();
 

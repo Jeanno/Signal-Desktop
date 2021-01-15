@@ -12,6 +12,7 @@
   },
   "main": "main.js",
   "scripts": {
+    "myrun": "tsc myrun.ts; node myrun.js",
     "postinstall": "yarn build:acknowledgments && snyk protect && patch-package && electron-builder install-app-deps && rimraf node_modules/dtrace-provider",
     "postuninstall": "yarn build:acknowledgments",
     "start": "electron .",

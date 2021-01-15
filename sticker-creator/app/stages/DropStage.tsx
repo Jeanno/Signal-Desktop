@@ -11,6 +11,7 @@ import { stickersDuck } from '../../store';
 import { useI18n } from '../../util/i18n';
 
 export const DropStage: React.ComponentType = () => {
+  // Jeanno: First stage
   const i18n = useI18n();
   const stickerPaths = stickersDuck.useStickerOrder();
   const stickersReady = stickersDuck.useStickersReady();

@@ -33,6 +33,7 @@ export const UploadStage: React.ComponentType = () => {
         setComplete(i => i + 1);
       };
       try {
+        // Jeanno: Here
         const packMeta = await encryptAndUpload(
           { title, author },
           orderedData,

@@ -15,6 +15,7 @@ import { stickersDuck } from '../../store';
 import { useI18n } from '../../util/i18n';
 
 export const MetaStage: React.ComponentType = () => {
+  // Jeanno: Third Stage
   const i18n = useI18n();
   const actions = stickersDuck.useStickerActions();
   const valid = stickersDuck.useAllDataValid();
